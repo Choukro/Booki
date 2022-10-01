@@ -1,0 +1,12 @@
+body {
+	box-sizing: border-box;
+	background-color: white;
+	height: 100%;
+	margin: 0 3.5%;
+}
+
+header {
+	display: flex;
+	justify-content: space-between;
+	align-items: flex-end;
+}
