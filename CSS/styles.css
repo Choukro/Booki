@@ -7,7 +7,7 @@ body {
 	background-color: white;
 	height: 100%;
 	margin: 0px 50px 7px 50px;
-	width :1440px;
+	max-width :1440px;
 }
 
 header {
@@ -390,9 +390,3 @@ footer ul li {
 footer ul li a {
 	color: #000 !important;
 }
-
-
-
-
-
-
