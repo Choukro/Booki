@@ -109,7 +109,6 @@ i {
 	color: #F2F2F2;
 }
 
-
 #menu ul {
 	margin-top: 0px;
 }
@@ -134,6 +133,10 @@ i {
 	border-top: solid 2px #0065FC;
 	color : #0065FC;
   }
+
+#section1 {
+	padding-bottom : 39px;
+}
 
 #form {
 	display: flex;
@@ -211,26 +214,30 @@ i {
 #accommodation {
 	background: #F2F2F2;
 	border-radius: 20px;
-	width: 65%;
+	width: 67%;
+	height:625px;
 }
 
 #accommodation h2 {
 	padding-top: 42px;
 	padding-left: 40px;
+	padding-bottom: 23px;
+	margin: 0;
 }
 
 #accommodation h3 {
-	padding-top: 51px;
+	padding-top: 21px;
 	padding-left: 44px;
 	padding-bottom: 46px;
 }
 
 .accommodation-cards {
-	height:625px;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	flex-wrap: wrap;
 	padding-left: 40px;
+	padding-right: 40px;
 }
 
 .accommodation-card {
@@ -240,6 +247,7 @@ i {
 	flex-direction: column;
 	background: #FFFFFF;
 	border-radius: 20px;
+	margin-bottom: 30px;
 }
 
 .accommodation-card img {
@@ -260,20 +268,22 @@ i {
 
 #popular {
 	background: #F2F2F2;
-	border-radius: 20px
+	border-radius: 20px;
+	width: 420px;
+	height:100%;
+	height:625px;
 }
 
 #popular-title {
 	display :flex;
 	align-items: center;
-	padding-left:37px;
+	padding-left: 37px;
 }
 
 .popular-cards {
-	height:625px;
 	display: flex;
 	flex-direction: column;
-	justify-content: space-around;
+	justify-content: space-between;
 	padding-left:37px;
 }
 
@@ -282,6 +292,7 @@ i {
 	width: 343px;
 	background: #FFFFFF;
 	border-radius: 20px;
+	margin-bottom: 33px;
 }
 
 .popular-card img {
@@ -295,13 +306,18 @@ i {
 .popular-card a {
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
 }
 
 #popular h4 {
 	padding-top:16px;
 	padding-right: 22px;
 	margin-bottom: -2px;
+}
+
+#popular-title h2 {
+	padding-top : 41px;
+	padding-bottom : 26px;
+	margin:0;
 }
 
 .popular-card-name {
@@ -312,7 +328,11 @@ i {
 	padding-top:35px;
 }
 
-
+#section2 {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
 
 
 
