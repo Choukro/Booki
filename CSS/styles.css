@@ -25,9 +25,90 @@ a {
 }
 
 h1 {
-	font-size: 16px;
-	font-weight: 400;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 26px;
+	color : #000;
+	margin-top: 53px;
+	margin-bottom: 8px;
 }
+
+h2 {
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 26px;
+	color : #000;
+}
+
+h3 {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 21px;
+	color : #000;
+	margin:0;
+}
+
+h4 {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 19px;
+	color : #000;
+	margin:0;
+}
+
+.card-price {
+	font-size: 14px;
+	font-weight: 400;
+	color : #000;
+	padding-top :6px;
+	padding-bottom: 6px;
+}
+
+i {
+	color:#0065FC;
+}
+
+.fa-location-dot {
+	font-size: 18px;
+	background-color: #F2F2F2;
+	color : #000!important;
+	padding: 16px 18px 15px 18px;
+	border: 1px solid #F2F2F2;
+	border-radius: 15px 0 0 15px;
+}
+
+.fa-money-bill-wave, .fa-heart, .fa-dog, .fa-child-reaching {
+	font-size :20px;
+}
+
+.fa-magnifying-glass {
+	background-color: #0065FC;
+	border: 1px solid #0065FC;
+	border-radius: 0px 15px 15px 0px;
+	padding: 16px;
+	color:#fff!important;
+}
+
+.fa-info {
+	border: solid 2px #D9D9D9;
+	border-radius: 100%;
+	padding: 7px 10px 7px 10px;
+	font-size: 9px;
+}
+
+.fa-chart-line {
+	font-size :18px;
+	padding-left:118px;
+}
+
+.fa-star {
+	font-size: 12px;
+}
+
+.fa-star--gray {
+	color: #F2F2F2;
+}
+
 
 #menu ul {
 	margin-top: 0px;
@@ -54,19 +135,185 @@ h1 {
 	color : #0065FC;
   }
 
-
-
 #form {
 	display: flex;
+	margin-top:20px;
+}
+
+.form-input, .form-button {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 21px;
+}
+
+.form-input {
+	color : #000;
+	padding: 14px 16px 14px 16px;
+	border: 1px solid #F2F2F2;
+}
+
+.form-button {
+	color: #fff;
+	background: #0065FC;
+	border: 1px solid #0065FC;
+	border-radius: 0px 15px 15px 0px;
+	padding : 14px 16px 14px 16px;
+}
+
+#search-mobile {
+	display: none;
 }
 
 #filter {
+	width: 914px;
 	display: flex;
+	align-items: center;
+	justify-content: space-between;
 	padding-left: 7px;
+	padding-top: 30px;
+}
+
+.filter-container {
+	background-color: #fff;
+	display: flex;
+	align-items: center;
+	border: 2px solid #D9D9D9;
+	border-radius: 25px;
+}
+
+.filter-container:hover {
+	background: #DEEBFF;
+}
+
+.filter-container i {
+	padding : 14px 10px 14px 20px;
+}
+
+.filter-container div {
+	font-size: 17px;
+	font-weight: 700;
+	line-height: 20px;
+	font-family: 'Raleway', sans-serif;
+	padding-right : 20px;
 }
 
 #info {
 	display: flex;
+	align-items: center;
 	padding-left: 4px;
+	margin-top: 40px;
 }
+
+#info div {
+	padding-left: 11px;
+}
+
+#accommodation {
+	background: #F2F2F2;
+	border-radius: 20px;
+	width: 65%;
+}
+
+#accommodation h2 {
+	padding-top: 42px;
+	padding-left: 40px;
+}
+
+#accommodation h3 {
+	padding-top: 51px;
+	padding-left: 44px;
+	padding-bottom: 46px;
+}
+
+.accommodation-cards {
+	height:625px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-left: 40px;
+}
+
+.accommodation-card {
+	height: 199px;
+	width: 246px;
+	display: flex;
+	flex-direction: column;
+	background: #FFFFFF;
+	border-radius: 20px;
+}
+
+.accommodation-card img {
+	height : 114px;
+	width : 96%;
+	object-fit: cover;
+	border: 5px solid #FFFFFF;
+	border-radius: 20px 20px 0px 0px;
+}
+
+.accommodation-card a {
+	justify-content: space-between;
+}
+
+.accommodation-card-name {
+	padding-left: 16px;
+}
+
+#popular {
+	background: #F2F2F2;
+	border-radius: 20px
+}
+
+#popular-title {
+	display :flex;
+	align-items: center;
+	padding-left:37px;
+}
+
+.popular-cards {
+	height:625px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding-left:37px;
+}
+
+.popular-card {
+	height: 144px;
+	width: 343px;
+	background: #FFFFFF;
+	border-radius: 20px;
+}
+
+.popular-card img {
+	height: 134px;
+	width: 134px;
+	object-fit: cover;
+	border: 5px solid #FFFFFF;
+	border-radius: 20px 0px 0px 20px;
+}
+
+.popular-card a {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+#popular h4 {
+	padding-top:16px;
+	padding-right: 22px;
+	margin-bottom: -2px;
+}
+
+.popular-card-name {
+	padding-left : 15px;
+}
+
+.popular-card-star {
+	padding-top:35px;
+}
+
+
+
+
+
 
