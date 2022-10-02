@@ -19,7 +19,7 @@
         <header><!-- header de la page -->
             <div id="headerLogo">
                 <a href="#">
-                    <img srcset="images/logo/Booki.png 1x, images/logo/Booki@2x.png 2x" src="images/logo/Booki.png" alt="Logo de Booki" sizes="100vw">
+                    <img src="images/logo/Booki.png" alt="Logo de Booki">
                 </a>
             </div>
             <nav id="menu">
@@ -43,22 +43,10 @@
             </form>
             <div id="filter"><!-- filtre -->
                 <h3>Filtre</h3>
-                <button class="filter-container">
-                    <i class="fa-solid fa-money-bill-wave"></i>
-                    <div>Économique</div>
-                </button>
-                <button class="filter-container">
-                    <i class="fa-solid fa-child-reaching"></i>
-                    <div>Familial</div>
-                </button>
-                <button class="filter-container">
-                    <i class="fa-solid fa-heart"></i>
-                    <div>Romantique</div>
-                </button>
-                <button class="filter-container">
-                    <i class="fa-solid fa-dog"></i>
-                    <div>Animaux autorisés</div>
-                </button>
+                <button id="economic" name="economic"><i class="fa-solid fa-money-bill-wave"></i>Économique</button>
+                <button id="family" name="family"><i class="fa-solid fa-child-reaching"></i>Familial</button>
+                <button id="romantic" name="romantic"><i class="fa-solid fa-heart"></i>Romantique</button>
+                <button id="animals" name="animals"><i class="fa-solid fa-dog"></i>Animaux autorisés</button>
             </div>
             <div id="info">
                 <i class="fa-solid fa-info"></i>
@@ -69,7 +57,7 @@
         <section id="section2"><!-- section n°2 : "Hébergements à Marseille" + "les plus populaires" -->
             <div id="accommodation"><!-- "Hébergements à Marseille" -->
                 <h2>Hébergements à Marseille</h2>
-                <section class="accommodation-cards">
+                <div class="accommodation-cards">
                     <article class="accommodation-card"><!-- card "Hébergements à Marseille" -->
                         <a href="#">
                             <img srcset="images/hebergements/1_xlarge/marcus-loke-WQJvWU_HZFo-unsplash.jpg 5993w, 
@@ -202,7 +190,7 @@
                             </div>
                         </a>
                     </article>
-                </section>
+                </div>
                 <a href="#">
                     <h3>Afficher plus</h3>
                 </a>
@@ -212,7 +200,7 @@
                     <h2>Les plus populaire</h2>
                     <i class="fa-solid fa-chart-line"></i>
                 </div>
-                <section class="popular-cards">
+                <div class="popular-cards">
                     <article class="popular-card"><!-- card "Les plus populaires" -->
                         <a href="#">
                             <img srcset="images/hebergements/1_xlarge/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg 4249w,
@@ -279,15 +267,15 @@
                             </div>
                         </a>
                     </article>
-                </section>
+                </div>
             </div>
         </section>
 
-        <section><!-- section n°3 : "Activités à Marseille" -->
+        <section id="section3"><!-- section n°3 : "Activités à Marseille" -->
             <div id="activities">
                 <h2>Activités à Marseille</h2>
                 <section id="activities-cards"><!-- "Activités à Marseille" -->
-                    <div id="activities-card"><!-- card "Activités à Marseille" -->
+                    <div class="activities-card"><!-- card "Activités à Marseille" -->
                         <a href="#">
                             <img srcset="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg 5616w,
                             images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg 2808w,
@@ -299,7 +287,7 @@
                             <h4>Vieux Port</h4>
                         </a>
                     </div>
-                    <div id="activities-card"><!-- card "Activités à Marseille" -->
+                    <div class="activities-card"><!-- card "Activités à Marseille" -->
                         <a href="#">
                             <img srcset="images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg 2843w,
                             images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg 1422w,
@@ -311,7 +299,7 @@
                             <h4>Fort de Pomègues</h4>
                         </a>
                     </div>
-                    <div id="activities-card"><!-- card "Activités à Marseille" -->
+                    <div class="activities-card"><!-- card "Activités à Marseille" -->
                         <a href="#">
                             <img srcset="images/activites/1_xlarge/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg 4846w,
                             images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg 2423w,
@@ -323,7 +311,7 @@
                             <h4>Parc National des Calanques</h4>
                         </a>
                     </div>
-                    <div id="activities-card"><!-- card "Activités à Marseille" -->
+                    <div class="activities-card"><!-- card "Activités à Marseille" -->
                         <a href="#">
                             <img srcset="images/activites/1_xlarge/florian-wehde-xW9e8gdotxI-unsplash.jpg 4712w,
                             images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg 2356w,
@@ -340,7 +328,7 @@
         </section>
 
         <footer><!-- Pied de page de la page -->
-            <div>
+            <div id="footer-about">
                 <h3>À propos</h3>
                 <ul>
                     <li><a href="#">Fonctionnement du site</a></li>
@@ -348,14 +336,14 @@
                     <li><a href="#">Données et confidentialité</a></li>
                   </ul>
             </div>
-            <div>
+            <div id="footer-accommodation">
                 <h3>Nos Hébergements</h3>
                 <ul>
                     <li><a href="#">Charte qualité</a></li>
                     <li><a href="#">Soumettre votre hôtel</a></li>
                   </ul>
             </div>
-            <div>
+            <div id="footer-assistance">
                 <h3>Assistance</h3>
                 <ul>
                     <li><a href="#">Centre d'aide</a></li>

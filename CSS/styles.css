@@ -24,6 +24,14 @@ a {
 	text-decoration: none!important;
 }
 
+footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	background-color : #F2F2F2;
+	padding:45px 380px 60px 70px;
+}
+
 h1 {
 	font-size: 22px;
 	font-weight: 700;
@@ -135,7 +143,7 @@ i {
   }
 
 #section1 {
-	padding-bottom : 39px;
+	margin-bottom : 40px;
 }
 
 #form {
@@ -176,28 +184,25 @@ i {
 	padding-top: 30px;
 }
 
-.filter-container {
+#filter button {
 	background-color: #fff;
 	display: flex;
 	align-items: center;
 	border: 2px solid #D9D9D9;
 	border-radius: 25px;
-}
-
-.filter-container:hover {
-	background: #DEEBFF;
-}
-
-.filter-container i {
-	padding : 14px 10px 14px 20px;
-}
-
-.filter-container div {
 	font-size: 17px;
 	font-weight: 700;
 	line-height: 20px;
 	font-family: 'Raleway', sans-serif;
 	padding-right : 20px;
+}
+
+#filter button:hover {
+	background: #DEEBFF;
+}
+
+#filter button i {
+	padding : 14px 10px 14px 20px;
 }
 
 #info {
@@ -248,6 +253,7 @@ i {
 	background: #FFFFFF;
 	border-radius: 20px;
 	margin-bottom: 30px;
+	box-shadow: 0px 10px 20px #D9D9D9;
 }
 
 .accommodation-card img {
@@ -258,9 +264,9 @@ i {
 	border-radius: 20px 20px 0px 0px;
 }
 
-.accommodation-card a {
+/*.accommodation-card a {
 	justify-content: space-between;
-}
+}*/
 
 .accommodation-card-name {
 	padding-left: 16px;
@@ -295,6 +301,7 @@ i {
 	background: #FFFFFF;
 	border-radius: 20px;
 	margin-bottom: 33px;
+	box-shadow: 0px 10px 20px #D9D9D9;
 }
 
 .popular-card img {
@@ -332,7 +339,59 @@ i {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	margin-bottom : 60px;
 }
+
+#activities-cards {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.activities-card {
+	height: 445px;
+	width: 302px;
+	border-radius: 20px;
+	box-shadow: 0px 10px 20px #D9D9D9;
+}
+
+.activities-card img {
+	height : 389px;
+	width : 100%;
+	object-fit: cover;
+	border-radius: 20px 20px 0px 0px;
+}
+
+.activities-card h4 {
+	background: #fff;
+	padding : 20px 35px 20px 20px;
+	border-radius: 0px 0px 20px 20px;
+}
+
+#section3 {
+	margin-bottom : 60px;
+}
+
+footer ul {
+	margin:0;
+	padding:0;
+}
+
+footer h3 {
+	padding-bottom: 20px;
+}
+
+footer ul li {
+	display:block;
+	padding-bottom: 12px;
+}
+
+footer ul li a {
+	color: #000 !important;
+}
+
+
 
 
 
