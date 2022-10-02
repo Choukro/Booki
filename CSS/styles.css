@@ -278,6 +278,8 @@ i {
 	display :flex;
 	align-items: center;
 	padding-left: 37px;
+	padding-top : 41px;
+	padding-bottom : 26px;
 }
 
 .popular-cards {
@@ -315,8 +317,6 @@ i {
 }
 
 #popular-title h2 {
-	padding-top : 41px;
-	padding-bottom : 26px;
 	margin:0;
 }
 
