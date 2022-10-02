@@ -128,6 +128,7 @@ i {
 	display: block;
 	padding: 46px 25px 0 25px;
 	border-top: solid 2px #fff;
+	border-bottom: solid 2px #fff;
 }
 
 .menu-item a, .information {
@@ -139,7 +140,7 @@ i {
 .menu-item a:hover, .menu-item a:active{
 	border-top: solid 2px #0065FC;
 	color : #0065FC;
-  }
+}
 
 #section1 {
 	margin-bottom : 40px;
@@ -194,6 +195,11 @@ i {
 	line-height: 20px;
 	font-family: 'Raleway', sans-serif;
 	padding-right : 20px;
+	margin-bottom: 17px;
+}
+
+#filter h3 {
+    margin-bottom: 17px;
 }
 
 #filter button:hover {
@@ -208,7 +214,7 @@ i {
 	display: flex;
 	align-items: center;
 	padding-left: 4px;
-	margin-top: 40px;
+	margin-top: 23px;
 }
 
 #info div {
@@ -332,10 +338,12 @@ i {
 	padding-top:16px;
 	padding-right: 22px;
 	margin-bottom: -2px;
+	/*font-size:1.14vw!important;*/
 }
 
 #popular-title h2 {
 	margin:0;
+	/*font-size:1.57vw!important;*/
 }
 
 .popular-card-name {

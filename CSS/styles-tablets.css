@@ -1,0 +1,16 @@
+/*--------------------------*/
+/*--------TABLETS-------- */
+/*------------------------*/
+
+body {
+	margin-left: 72px;
+    margin-right: 72px;
+}
+
+#filter {
+	flex-wrap: wrap;
+}
+
+#filter button, #filter h3 {
+    margin-right: 14px;
+}

@@ -1,7 +1,64 @@
 /*--------------------------*/
-/*--------TABLETS-------- */
+/*-----SMARTPHONES-------- */
 /*------------------------*/
 
-header {
-    margin-bottom: 100px;
+body {
+	margin-top: 20px;
+    margin-left: 0px;
+    margin-right: 0px;
 }
+
+#section1, #accommodation, #popular, #activities, footer div {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-left: 0px;
+}
+
+#menu , #menu ul {
+    padding: 0;
+    margin:0;
+}
+
+.menu-item {
+	min-width: 185px;
+    text-align: center;
+}
+
+.menu-item a:hover, .menu-item a:active {
+    border-top: solid 2px #fff;
+	border-bottom: solid 2px #0065FC;
+	color : #0065FC;
+}
+
+#form {
+	margin-top:36px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#search-mobile {
+	display: block;
+}
+
+.form-button {
+    display: none;
+}
+
+#filter {
+	flex-wrap: wrap;
+}
+
+#filter h3 {
+	width: 100%;
+}
+
+#activities-cards {
+	flex-wrap: wrap;
+}
+
