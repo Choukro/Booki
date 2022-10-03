@@ -7,10 +7,77 @@ body {
     margin-right: 72px;
 }
 
+footer {
+	padding-right: 20%;
+}
+
 #filter {
 	flex-wrap: wrap;
 }
 
 #filter button, #filter h3 {
     margin-right: 14px;
+}
+
+#section2 {
+	flex-direction: column;
+	justify-content: flex-end;
+    margin-bottom: 70px;
+}
+
+#accommodation {
+	width: 100%;
+}
+
+#popular {
+    max-width: 800px;
+    margin-top: 53px;
+	width: 100%;
+    min-height: 278px;
+}
+
+.popular-cards {
+	flex-direction: row;
+    justify-content: space-around;
+}
+
+.popular-card {
+	max-width: 252px;
+}
+
+.popular-card img {
+	max-width: 106px;
+}
+
+.popular-card-name h4 {
+    font-size: 14px;
+}
+
+.card-price {
+    font-size: 13px;
+}
+
+#section3 {
+	margin-bottom : 70px;
+}
+
+#activities-cards {
+	flex-wrap: wrap;
+}
+
+.activities-card {
+	height: 267px;
+	width: 182px;
+}
+
+.activities-card img {
+	height : 211px;
+}
+
+.activities-card h4 {
+	line-height: 19px;
+    padding-left: 19px;
+    height: 50px;
+    display: table-cell;
+    vertical-align: middle;
 }

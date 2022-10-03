@@ -10,7 +10,6 @@ body {
 
 #section1, #accommodation, #popular, #activities, footer div {
     margin-left: 20px;
-    margin-right: 20px;
 }
 
 header {
@@ -52,10 +51,28 @@ header {
 
 #filter {
 	flex-wrap: wrap;
+    padding-left: 0px;
+    max-width: 767px;
 }
 
 #filter h3 {
 	width: 100%;
+}
+
+#filter button {
+    margin-right:5px;
+    width:160px;
+    font-size: 11px;
+}
+
+#filter button i {
+    padding : 15px 5px 15px 6px;
+    font-size: large;
+}
+
+#section2 {
+	flex-direction: column-reverse;
+	justify-content: flex-end;
 }
 
 #activities-cards {
