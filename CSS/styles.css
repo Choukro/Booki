@@ -177,6 +177,7 @@ i {
 
 #filter {
 	max-width: 914px;
+	width:auto;
 	display: flex;
 	align-items: center;
 	justify-content: space-between;

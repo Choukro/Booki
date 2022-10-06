@@ -58,6 +58,7 @@ footer {
 
 #filter {
 	flex-wrap: wrap;
+    justify-content: left;
     padding-left: 0px;
 }
 
@@ -66,8 +67,9 @@ footer {
 }
 
 #filter button {
-    margin-right:5px;
-    width:160px;
+    margin-right:14px;
+    max-width :160px;
+    width: 100%;
     font-size: 11px;
 }
 
