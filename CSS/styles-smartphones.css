@@ -8,6 +8,8 @@ body {
     margin-right: 0px;
 }
 
+/* -----------------------*/
+/*    Section elements   */
 header {
     flex-direction: column;
     justify-content: center;
@@ -22,12 +24,11 @@ footer {
 	padding-top: 45px;
     padding-left: 30px;
 }
+/* ---------------------*/
 
-#section1 {
-    margin-left: 20px;
-    padding-left: 0px;
-}
 
+/* -----------------------*/
+/*       Header          */
 #menu , #menu ul {
     padding: 0;
     margin:0;
@@ -44,6 +45,15 @@ footer {
 	color : #0065FC;
 }
 
+
+/* -----------------------*/
+/*      Section1         */
+#section1 {
+    margin-left: 20px;
+    padding-left: 0px;
+}
+
+/*      Form         */
 #form {
 	margin-top:36px;
 }
@@ -56,6 +66,7 @@ footer {
     display: none;
 }
 
+/*      Filter         */
 #filter {
 	flex-wrap: wrap;
     justify-content: left;
@@ -77,13 +88,18 @@ footer {
     padding : 15px 5px 15px 6px;
     font-size: large;
 }
+/* ---------------------*/
 
+
+/* -----------------------*/
+/*      Section2         */
 #section2 {
 	flex-direction: column-reverse;
 	justify-content: flex-end;
     margin-bottom: 0px;
 }
 
+/*     Accommodation      */
 #accommodation {
 	width: 100%;
     padding-left: 20px;
@@ -107,6 +123,7 @@ footer {
 	width : 97%;
 }
 
+/*     Popular       */
 #popular {
     margin-top: 26px;
     margin-bottom: 26px;
@@ -129,7 +146,11 @@ footer {
 .popular-card {
     margin-bottom: 10px;
 }
+/* ---------------------*/
 
+
+/* -----------------------*/
+/*      Section 3         */
 #section3 {
     margin-bottom: 50px;
 }
@@ -156,10 +177,13 @@ footer {
 	object-fit: cover;
 }
 
+/* -----------------------*/
+
+
+/* -----------------------*/
+/*       Footer          */
 footer div {
     margin-bottom: 40px;
 }
 
-
-
-
+/* ---------END-----------*/
