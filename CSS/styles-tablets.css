@@ -3,12 +3,23 @@
 /*------------------------*/
 
 body {
-	margin-left: 72px;
-    margin-right: 72px;
+	margin-left: auto;
+    margin-right: auto;
+	max-width : 992px;
 }
 
 /* -----------------------*/
 /*    Section elements   */
+header, #section1, #section2, #section3 {
+	margin-right: 72px;
+	margin-left: 72px;
+}
+
+#section1, #section2, #section3 {
+	max-width: 880px;
+	width:100%;
+}
+
 footer {
 	padding-right: 20%;
 }
@@ -19,7 +30,7 @@ footer {
 /*      Section1         */
 /*      Filter         */
 #filter {
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 }
 
 #filter button, #filter h3 {
@@ -43,6 +54,7 @@ footer {
 /*     Accommodation      */
 #accommodation {
 	width: 100%;
+	margin-right:auto;
 }
 
 /*     Popular       */
@@ -55,11 +67,12 @@ footer {
 
 .popular-cards {
 	flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .popular-card {
 	max-width: 252px;
+	overflow: hidden;
 }
 
 .popular-card img {

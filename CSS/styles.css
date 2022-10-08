@@ -6,7 +6,8 @@ body {
 	box-sizing: border-box;
 	background-color: white;
 	height: 100%;
-	margin: 0px 50px 7px 50px;
+	margin-bottom: 7px;
+	margin-top: 0px;
 	max-width :1400px;
 	margin-right: auto;
 	margin-left: auto;
@@ -128,6 +129,11 @@ i {
 
 /* -----------------------*/
 /*       Header          */
+#headerLogo img {
+	width: 30%;
+	padding-bottom: 10px;
+}
+
 #menu ul {
 	margin-top: 0px;
 }
@@ -165,7 +171,7 @@ i {
 /*      Form         */
 #form {
 	display: flex;
-	margin-top:20px;
+	margin-top: 20px;
 }
 
 .form-input, .form-button {
