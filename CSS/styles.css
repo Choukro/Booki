@@ -8,8 +8,12 @@ body {
 	height: 100%;
 	margin: 0px 50px 7px 50px;
 	max-width :1400px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
+/* -----------------------*/
+/*    Section elements   */
 header {
 	display: flex;
 	justify-content: space-between;
@@ -20,10 +24,6 @@ header, #section1 {
 	padding-left: 5px;
 }
 
-a {
-	text-decoration: none!important;
-}
-
 footer {
 	display: flex;
 	flex-direction: row;
@@ -31,7 +31,11 @@ footer {
 	background-color : #F2F2F2;
 	padding: 45px 25% 60px 70px;
 }
+/* ---------------------*/
 
+
+/* -----------------------*/
+/*      Headin tags      */
 h1 {
 	font-size: 22px;
 	font-weight: 700;
@@ -63,19 +67,23 @@ h4 {
 	color : #000;
 	margin:0;
 }
+/* ---------------------*/
 
-.card-price {
-	font-size: 14px;
-	font-weight: 400;
-	color : #000;
-	padding-top :6px;
-	padding-bottom: 6px;
+
+/* -----------------------*/
+/*    Other tag          */
+a {
+	text-decoration: none!important;
 }
 
 i {
 	color:#0065FC;
 }
+/* ---------------------*/
 
+
+/* -----------------------*/
+/*    Font Awesome       */
 .fa-location-dot {
 	font-size: 18px;
 	background-color: #F2F2F2;
@@ -115,7 +123,11 @@ i {
 .fa-star--gray {
 	color: #F2F2F2;
 }
+/* ---------------------*/
 
+
+/* -----------------------*/
+/*       Header          */
 #menu ul {
 	margin-top: 0px;
 }
@@ -141,11 +153,16 @@ i {
 	border-top: solid 2px #0065FC;
 	color : #0065FC;
 }
+/* ---------------------*/
 
+
+/* -----------------------*/
+/*      Section1         */
 #section1 {
 	margin-bottom : 40px;
 }
 
+/*      Form         */
 #form {
 	display: flex;
 	margin-top:20px;
@@ -175,6 +192,7 @@ i {
 	display: none;
 }
 
+/*      Filter         */
 #filter {
 	max-width: 914px;
 	width:auto;
@@ -211,6 +229,7 @@ i {
 	padding : 14px 10px 14px 20px;
 }
 
+/*      Info         */
 #info {
 	display: flex;
 	align-items: center;
@@ -221,7 +240,12 @@ i {
 #info div {
 	padding-left: 11px;
 }
+/* -------------------*/
 
+
+
+/* -----------------------*/
+/*      Section2         */
 #section2 {
 	display: flex;
 	flex-direction: row;
@@ -229,6 +253,15 @@ i {
 	margin-bottom : 60px;
 }
 
+.card-price {
+	font-size: 14px;
+	font-weight: 400;
+	color : #000;
+	padding-top :6px;
+	padding-bottom: 6px;
+}
+
+/*     Accommodation      */
 #accommodation {
 	background: #F2F2F2;
 	border-radius: 20px;
@@ -288,6 +321,7 @@ i {
 	padding-bottom:11px;
 }
 
+/*     Popular       */
 #popular {
 	background: #F2F2F2;
 	border-radius: 20px;
@@ -352,7 +386,11 @@ i {
 	justify-content: space-between;
 	padding : 16px 22px 12px 15px;
 }
+/* ---------------------*/
 
+
+/* -----------------------*/
+/*      Section1         */
 #section3 {
 	margin-bottom : 60px;
 }
@@ -390,7 +428,11 @@ i {
 	padding-left: 20px;
 	border-radius: 0px 0px 20px 20px;
 }
+/* -----------------------*/
 
+
+/* -----------------------*/
+/*       Footer          */
 footer ul {
 	margin:0;
 	padding:0;
@@ -410,3 +452,4 @@ footer ul li a {
 	font-size: 16px;
 	font-weight: 400;
 }
+/* ---------END-----------*/
