@@ -25,6 +25,11 @@ header, #section1 {
 	padding-left: 5px;
 }
 
+header, #section1, #section2, #section3, footer {
+	margin-right: 3.5%;
+	margin-left: 3.5%;
+}
+
 footer {
 	display: flex;
 	flex-direction: row;
@@ -200,13 +205,12 @@ i {
 
 /*      Filter         */
 #filter {
-	max-width: 914px;
-	width:auto;
 	display: flex;
 	align-items: center;
-	justify-content: space-between;
+	justify-content: flex-start;
 	padding-left: 7px;
 	padding-top: 30px;
+	gap:30px;
 }
 
 #filter button {
@@ -257,6 +261,7 @@ i {
 	flex-direction: row;
 	justify-content: space-between;
 	margin-bottom : 60px;
+	gap: 40px;
 }
 
 .card-price {
@@ -272,11 +277,10 @@ i {
 	background: #F2F2F2;
 	border-radius: 20px;
 	width: 65%;
-	max-width : 800px;
+	max-width : calc(880px - 80px);
 	height:100%;
 	padding-left: 40px;
 	padding-right: 40px;
-	margin-right: 40px;
 }
 
 #accommodation h2 {
@@ -332,10 +336,10 @@ i {
 	background: #F2F2F2;
 	border-radius: 20px;
 	width: 26%;
-	max-width : 420px;
+	max-width : calc(420px - 77px);
 	min-height: 625px;
 	padding-left: 37px;
-	padding-right : 42px;
+	padding-right : 40px;
 	display :flex;
 	flex-direction: column;
 }

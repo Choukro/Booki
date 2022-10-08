@@ -10,14 +10,18 @@ body {
 
 /* -----------------------*/
 /*    Section elements   */
-header, #section1, #section2, #section3 {
-	margin-right: 72px;
-	margin-left: 72px;
+header, #section1, #section2, #section3, footer {
+	margin-right: 7%;
+	margin-left: 7%;
+}
+
+header {
+	width:calc(100% - 14%);
+	padding-left: 0px;
 }
 
 #section1, #section2, #section3 {
-	max-width: 880px;
-	width:100%;
+	width:calc(100% - 14%);
 }
 
 footer {
@@ -28,9 +32,14 @@ footer {
 
 /* -----------------------*/
 /*      Section1         */
+#section1 {
+	padding-left:0px;
+}
+
 /*      Filter         */
 #filter {
 	flex-wrap: nowrap;
+	gap : 15px;
 }
 
 #filter button, #filter h3 {
@@ -45,6 +54,7 @@ footer {
 	flex-direction: column;
 	justify-content: flex-end;
     margin-bottom: 70px;
+	gap: unset;
 }
 
 .card-price {
@@ -53,15 +63,15 @@ footer {
 
 /*     Accommodation      */
 #accommodation {
-	width: 100%;
-	margin-right:auto;
+	width: calc(100% - 80px);
+	margin-right:0px;
 }
 
 /*     Popular       */
 #popular {
     max-width: 800px;
     margin-top: 53px;
-	width: 100%;
+	width: calc(100% - 77px);;
     min-height: 278px;
 }
 
