@@ -38,7 +38,7 @@ footer {
 
 /*      Filter         */
 #filter {
-	flex-wrap: nowrap;
+	flex-wrap: wrap;
 	gap : 15px;
 }
 
@@ -78,16 +78,18 @@ footer {
 .popular-cards {
 	flex-direction: row;
     justify-content: space-between;
+	gap:23px;
 }
 
-.popular-card {
-	max-width: 252px;
-	overflow: hidden;
+.popular-card-image {
+	width:40%;
+	height:100%;
+	min-width:9vw;
 }
 
-.popular-card img {
+/*.popular-card img {
 	max-width: 106px;
-}
+}*/
 
 .popular-card-name h4 {
     font-size: 14px;
@@ -103,11 +105,13 @@ footer {
 
 #activities-cards {
 	flex-wrap: wrap;
+	justify-content: space-between;
+	gap:5px;
 }
 
 .activities-card {
-	height: 267px;
-	width: 182px;
+	max-height: 267px;
+	max-width: 182px;
 }
 
 .activities-card img {
