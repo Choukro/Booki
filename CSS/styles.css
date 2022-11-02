@@ -426,7 +426,7 @@ i {
 	box-shadow: 0px 10px 20px #D9D9D9;
 }
 
-.activities-cardd a {
+.activities-card a {
 	display: flex;
 	flex-direction: column;
 	justify-content: left;
