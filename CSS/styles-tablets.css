@@ -25,7 +25,8 @@ header {
 }
 
 footer {
-	padding-right: 20%;
+	gap:5%;
+	padding: 45px 1% 60px 70px;
 }
 /* ---------------------*/
 
@@ -38,12 +39,19 @@ footer {
 
 /*      Filter         */
 #filter {
-	flex-wrap: wrap;
-	gap : 15px;
+	flex-wrap: nowrap;
+	gap:2%;
 }
 
-#filter button, #filter h3 {
-    margin-right: 14px;
+#filter button {
+	padding-right:4%;
+	white-space: nowrap;
+	font-size:1.7vw;
+}
+
+#filter button i {
+	padding : 14px 8% 14px 4%;
+
 }
 /* ---------------------*/
 
@@ -104,9 +112,9 @@ footer {
 }
 
 #activities-cards {
-	flex-wrap: wrap;
+	flex-wrap: nowrap;
 	justify-content: space-between;
-	gap:5px;
+	gap:10px;
 }
 
 .activities-card {
@@ -119,10 +127,11 @@ footer {
 }
 
 .activities-card h4 {
-	line-height: 19px;
-    padding-left: 19px;
-    height: 50px;
-    display: table-cell;
-    vertical-align: middle;
+	height:38px;
+    display: flex;
+	align-items: center;
+	padding : 10px 2% 10px 10%;
+	white-space: unset;
+	text-overflow: unset;
 }
 /* ---------END-----------*/
