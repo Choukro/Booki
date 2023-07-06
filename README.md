@@ -9,4 +9,4 @@
 _Transformez une maquette en site web responsive avec HTML & CSS._
 
 ## ⚛️ Technologies
-![html](./back/images/screenshot/html.svg)&nbsp;&nbsp;![css](./back/images/screenshot/css.svg)
+![html](./images/screenshot/html.svg)&nbsp;&nbsp;![css](./images/screenshot/css.svg)
