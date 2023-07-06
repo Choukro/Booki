@@ -1,6 +1,6 @@
 # Booki 🏠 : Site web de location de vacances 
 
-> 🖥️ **Création d'un site web de location de vacances permettant aux utilisateurs de trouver des hébergements et des activités !**
+> 🖥️ **Site web de location de vacances permettant aux utilisateurs de trouver des hébergements et des activités !**
 
 ![screenshot du site](./images/screenshot/67383048.png)
 
